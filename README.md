@@ -4,11 +4,15 @@ Python scripts to parse CSV data. The file `parse_csv.py` uses the Python CSV Mo
 ## Usage: 
 `python parse_data.py`  <br>
 and <br>
-`python parse_csv.py`  <br>
+`./csvp -h`
 
+<pre>
+usage: parse_csv.py [-h] -f INPUT_FILE
 
+Generic Parser
 
-
-
-
-
+optional arguments:
+  -h, --help            show this help message and exit
+  -f INPUT_FILE, --input_file INPUT_FILE
+                        File to parse
+</pre>

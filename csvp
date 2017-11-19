@@ -1,0 +1,7 @@
+#!/bin/bash
+##############
+# Wrapper Script
+
+python_program='/usr/local/src/anon/parse-csv/parse_csv.py'
+
+python "$python_program" "$@"
